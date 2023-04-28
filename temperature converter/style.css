@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(temp.jpg);
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+form {
+  width: 400px;
+    border: 2px solid #ccc;
+  margin: auto;
+  background-color:aliceblue;
+  padding: 70px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(189, 78, 78, 0.3);;
+  color:black;
+}
+form p{
+  color:blue;
+  font-size: large;
+}
+.button { 
+  padding: 100px; 
+  } 
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+input[type="number"] {
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+input[type="button"] {
+  width: 100%;
+  padding: 10px;
+  background-color:violet;
+  color:crimson;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: large;
+}
+
+input[type="button"]:hover {
+  background-color: black;
+}
+
